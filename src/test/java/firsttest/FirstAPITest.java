@@ -1,4 +1,4 @@
-package tests;
+package firsttest;
 /*
  given()
     Content type ,set cookies, add auth, add param , set headers, info etc......
@@ -12,7 +12,6 @@ package tests;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 public class FirstAPITest {
